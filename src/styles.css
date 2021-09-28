@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  /* background-color: rgb(230, 230, 230); */
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(230, 230, 230);
+}
+
+button {
+  background-color: dodgerblue; /* Green */
+  color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+}
+
+/** container **/
+.container {
+  padding: 0rem 1rem 0rem 1rem;
+  padding-left: 70px;
+}
+
+.container-center {
+  max-width: 500px;
+  margin: auto;
+}
+
+.selected {
+  background-color: #ffffff; /* Green */
+  color: dodgerblue;
+}
